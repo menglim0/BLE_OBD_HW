@@ -63,6 +63,8 @@ static volatile uint32_t gTimCnt = 0; /* incremented every millisecond */
 uint8_t VfCANH_RxMSG_Data;
 uint16_t VfCANH_RxMSG_ID;
 
+uint16_t VfCANH_RxMSG_ID1;
+
 uint8_t VfUSART_Data[12];
 uint8_t USART_Data[12],i;
 
